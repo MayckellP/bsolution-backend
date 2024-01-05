@@ -66,6 +66,7 @@ class AuthController extends Controller
             'userData' => auth()->user()
         ], Response::HTTP_OK);
     }
+    //Prueba
 
     public function logout(){
         $cookie = Cookie::forget('cookie_token');
